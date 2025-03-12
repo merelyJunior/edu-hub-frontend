@@ -41,6 +41,7 @@
     "styled-components": "^5.2.0"
   },
   "scripts": {
+    "postinstall": "npm install --legacy-peer-deps",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
