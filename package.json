@@ -43,7 +43,7 @@
   "scripts": {
    "preinstall": "npm config set legacy-peer-deps true",
   "start": "react-scripts start",
-  "build": "rm -rf node_modules package-lock.json && npm install && npm run build",
+  "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "json:server": "json-server --port 3001 --watch db.json"
