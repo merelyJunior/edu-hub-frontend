@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Card } from 'antd'
 import Meta from 'antd/lib/card/Meta'
-import Avatar from 'antd/lib/avatar/avatar'
+import { Avatar } from 'antd';
 import ArticleComments from '../../components/Article/comments/'
 import { getArticleData, likeArticle, unlikeArticle, BookMark, unBookMark, followUser, unfollowUser, clear } 
 from '../../reducers/articlePageReducer';

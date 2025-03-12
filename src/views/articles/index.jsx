@@ -1,5 +1,5 @@
 import { Card, Button, Modal, Form, Input } from 'antd'
-import Avatar from 'antd/lib/avatar/avatar'
+import { Avatar } from 'antd';
 import Meta from 'antd/lib/card/Meta'
 import React, { useEffect, useState } from 'react'
 import { useHistory } from 'react-router-dom'

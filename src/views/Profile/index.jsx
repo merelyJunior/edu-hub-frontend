@@ -1,6 +1,6 @@
 import { useSelector, useDispatch } from 'react-redux'
 import React, { useState } from 'react'
-import Avatar from 'antd/lib/avatar/avatar'
+import { Avatar } from 'antd';
 import Meta from 'antd/lib/card/Meta'
 import './style.css'
 import { uploadFile } from 'react-s3'

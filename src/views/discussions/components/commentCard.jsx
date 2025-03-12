@@ -1,6 +1,6 @@
 import React from 'react'
 import { Card, Button } from 'antd'
-import Avatar from 'antd/lib/avatar/avatar'
+import { Avatar } from 'antd';
 import { removeComment } from '../../../reducers/discussionReducer'
 import { useDispatch } from 'react-redux'
 import './../styles.css'
