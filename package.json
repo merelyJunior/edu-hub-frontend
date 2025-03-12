@@ -41,9 +41,9 @@
     "styled-components": "^5.2.0"
   },
   "scripts": {
-    "postinstall": "npm install --legacy-peer-deps",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+   "preinstall": "npm config set legacy-peer-deps true",
+  "start": "react-scripts start",
+  "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "json:server": "json-server --port 3001 --watch db.json"
