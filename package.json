@@ -47,7 +47,7 @@
     "eject": "react-scripts eject",
     "json:server": "json-server --port 3001 --watch db.json"
   },
-  "proxy": "http://localhost:4000",
+  "proxy": "https://edu-hub-backend-ctrj.onrender.com",
   "eslintConfig": {
     "extends": "react-app"
   },
