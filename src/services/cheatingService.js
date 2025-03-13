@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { getAuthHeader } from './config'
 
-export const baseURL = '/cheatingDetection'
+export const baseURL = `${process.env.REACT_APP_API_URL}/cheatingDetection`
 
 const batchInc = async (examId) => {
   axios.post(`${baseURL}/checkCheating`,{examId:examId}, getAuthHeader()).catch(e=>console.log(e))

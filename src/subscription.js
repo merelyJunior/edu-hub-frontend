@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { getAuthHeader } from './services/config'
 
-const baseURL = '/notification'
+const baseURL = `${process.env.REACT_APP_API_URL}/notification`
 
 function urlBase64ToUint8Array(base64String) {
     // eslint-disable-next-line

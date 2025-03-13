@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { getAuthHeader } from './config';
 
-const baseURL = '/article'
+const baseURL = `${process.env.REACT_APP_API_URL}/article`
 
 const timeline  = async (page,limit) => {
   const response = await axios.get(`${baseURL}/timeline?page=${page}&limit=${limit}` , getAuthHeader()) ; 

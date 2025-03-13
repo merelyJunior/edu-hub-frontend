@@ -3,7 +3,7 @@ import { getAuthHeader } from './config'
 
 import { baseURL as coursesURL } from './courses'
 
-const baseURL = '/modules'
+const baseURL = `${process.env.REACT_APP_API_URL}/modules`
 
 const getModulesURL = (courseId, moduleId) => {
   if (!moduleId) return `${coursesURL}/${courseId}${baseURL}`
