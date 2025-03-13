@@ -51,7 +51,7 @@ const Dashboard = () => {
     state.courses.data.filter((course) => course.status !== 'archived')
   )
   const loading = useSelector((state) => state.courses.loading)
-  const deadlines = useSelector((state) => state.deadlines.data)
+  const deadlines = useSelector((state) => Array.isArray(state.deadlines.data) ? state.deadlines.data : []);
   const deadlinesLoading = useSelector((state) => state.deadlines.loading)
 
   const [form] = Form.useForm()
