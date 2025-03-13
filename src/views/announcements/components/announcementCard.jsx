@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, Button } from 'antd'
 import { useDispatch } from 'react-redux'
 import Meta from 'antd/lib/card/Meta'
-import { Avatar } from 'antd';
+import Avatar from 'antd/lib/avatar/avatar'
 import { removeAnnouncement } from '../../../reducers/announcementsReducer'
 
 const AnnouncementCard = ({ announcement, user }) => {

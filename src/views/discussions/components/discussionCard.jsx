@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Card, Button, Input } from 'antd'
 import { useDispatch } from 'react-redux'
 import Meta from 'antd/lib/card/Meta'
-import { Avatar } from 'antd';
+import Avatar from 'antd/lib/avatar/avatar'
 import AllComments from './commentCard'
 import {
   removeDiscussion,
