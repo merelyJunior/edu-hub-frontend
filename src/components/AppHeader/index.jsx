@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Space } from 'antd/es/space';
+import Space from 'antd/lib/space';
 import ProfileIcon from '../ProfileIcon'
 import DropDownNotification from '../DropDownNotification'
 import CourseNavigation from '../CourseNavigation'
